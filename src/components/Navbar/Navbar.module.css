@@ -1,0 +1,42 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    background:  #1d3650 ;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  .navbar__logo{
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+  }
+  
+  .navbar__cart {
+    background: #fff;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .cart__title {
+
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+  
+  }
+  
+   .cart__counter {
+    height: 40px;
+    width: 40px; 
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
